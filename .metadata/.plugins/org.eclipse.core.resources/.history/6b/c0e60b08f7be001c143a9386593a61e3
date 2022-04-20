@@ -1,0 +1,14 @@
+package Exer1;
+
+public class Main {
+    public static void main(String[] args) {
+        ShapePrinter printer = new ShapePrinter();
+
+        
+        printer.printTriangle(3);
+        System.out.println("----------");
+        printer.printTriangle(5);
+        System.out.println("----------");
+        printer.printTriangle(10);
+    }
+}

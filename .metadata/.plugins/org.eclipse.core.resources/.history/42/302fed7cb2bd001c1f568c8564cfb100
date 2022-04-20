@@ -1,0 +1,11 @@
+package market;
+
+public class MarketGood {
+
+	private String name;
+	private int retailPrice;
+	private int discountRate;
+	
+	
+	
+}

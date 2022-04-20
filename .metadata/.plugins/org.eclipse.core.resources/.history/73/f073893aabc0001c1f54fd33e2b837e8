@@ -1,0 +1,42 @@
+package mem;
+
+import base.Base; 
+import common.DataUtil; 
+
+public class Member extends Base{
+	String memData; //전달받은 데이터를 받는 변수
+	
+	
+	//회원 등록 메소드 // MemeberVo에서 등록하려는 회원의 정보를 MemeberVo타입으로 받기
+	public void regMember(MemeberVo vo) {
+		memData =vo.id+","+
+				 vo.name+","+
+				 vo.password+","
+				 vo.phoneNum+","
+				 vo.address;
+	}
+	
+	// 기존 회원 조회
+	public String viewMember () {
+		System.out.println("조회한 시간 : "+showTime());
+		return " 조회한 회원정보 넣을거야" ;
+	}
+	//회원정보수정
+	public void modMember() {
+		System.out.println("수정한 시간 : "+showTime());
+		System.out.println("정보수정이 완료되었습니다.");
+
+	}
+	//회원정보 삭제하는 메서드
+	public void delMember() {
+		System.out.println("삭제한 시간 : "+showTime());
+		System.out.println("회원정보가 삭제되었습니다.");
+
+	}
+	
+	
+	
+	
+	
+
+}

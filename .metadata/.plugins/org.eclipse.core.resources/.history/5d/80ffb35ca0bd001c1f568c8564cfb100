@@ -1,0 +1,66 @@
+package oopstudy;
+
+public class BankAccount {
+	private int balance; //금액
+	private Person owner; // 소유주
+	public int getBalance() {
+		return balance;
+	}
+	public void setBalance(int balance) {
+		this.balance = balance;
+	}
+	public Person getOwner() {
+		return owner;
+	}
+	public void setOwner(Person owner) {
+		this.owner = owner;
+	}
+
+	
+	//은행계좌에서 필요한건? 입금 출금 이체!
+	
+	//입금: 입금될 액수 성공여부를 리턴
+	boolean deposit(int amount) {
+		if(amount<0 || owner.getCashAmount()<amount) {
+			System.out.println("입금실패입니다. 잔고: "+balance+"원, 현금: "+owner.getCashAmount()+"원");
+			System.out.println(false);
+			return false;
+		}else {
+			balance+=amount;
+			owner.setCashAmount(owner.getCashAmount()- amount);
+			System.out.println(amount+"원 입금하였습니다. 잔고: "+balance+"원, 현금: "+owner.getCashAmount()+"원");
+			System.out.println(true);
+			return true;
+		}
+	}
+	//출금 : 출금될 액수 성공여부를 리턴
+	boolean withdraw(int amount) {
+		if(amount<0 || balance<amount) {
+			System.out.println("출금 실패입니다. 잔고: "+balance+"원, 현금: "+owner.getCashAmount()+"원");
+			System.out.println(false);
+			return false;
+		}else {
+			balance-=amount;
+			owner.setCashAmount(owner.getCashAmount()+amount);
+			System.out.println(amount+"원 출금하였습니다. 잔고: "+balance+"원, 현금: "+owner.getCashAmount()+"원");
+			System.out.println(true);
+			return true;
+		}
+		
+	}
+	//받는 사람 /이체할 금액
+	boolean transfer(Person person, int amount) {
+		return false;
+	
+		
+	}
+		//받는 사람 계정 이체할 금액
+	boolean transfer(BankAccount to, int amount) {
+		if(amount<0 ||amount>this.balance) {
+//			System.out.println("true - from: ["+getOwner().getName()+"], to: ["+to.getOwner().getName()+"], amount: ["+amount+"], balance: ["+balance+"]");
+			return false;
+		}		
+			System.out.println("true - from: ["+getOwner().getName()+"], to: ["+to.getOwner().getName()+"], amount: ["+amount+"], balance: ["+balance+"]");
+		return true;
+	}
+}

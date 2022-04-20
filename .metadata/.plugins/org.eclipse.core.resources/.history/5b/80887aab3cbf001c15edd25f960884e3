@@ -1,0 +1,19 @@
+package Person_1;
+
+public class Elementary extends Student{
+
+	public Elementary(String name, int grade) {
+		System.out.println("인자 2개인 elementary 생성자");
+		 super.name=name;
+		 super.grade = grade;
+	}
+	
+	public Elementary(String name, int grade, String gender, int age) {
+		System.out.println("인자 4개인 생성자");
+		super.name=name;
+		super.grade=grade;
+		super.gender=gender;
+		
+	
+	}
+}

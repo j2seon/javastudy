@@ -1,0 +1,19 @@
+package Exer;
+
+public class Bus extends Car{
+	private int passenger;
+	private int fee;
+	
+	public Bus(String carName, int velocity,int carSize,int passenger, int fee) {
+		System.out.println("버스생성자호출");
+		super.carName=carName;
+		super.velocity=velocity;
+		super.carSize=carSize;
+		this.passenger=passenger;
+		this.fee=fee;
+	
+	}
+	
+
+	
+}

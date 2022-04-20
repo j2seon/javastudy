@@ -1,0 +1,25 @@
+package Person_1;
+
+public class Student extends Person{
+	protected String name;
+	protected int grade;
+	
+	public Student() {
+		System.out.println("Student 부모의 생성자 호출");
+	}
+
+	public String getName() {
+		return name;
+	}
+
+	public int getGrade() {
+		return grade;
+	}
+	
+	public String getStudInfo() {
+		System.out.println("student 클래스의 getstudInfo()입니다.");
+		return "이름은 : " + name+"학년은 : "+ grade; 
+	}
+	
+	
+}

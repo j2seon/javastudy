@@ -1,0 +1,31 @@
+package rentcar;
+
+import car.Car;
+import mem.Member;
+import mem.MemeberVo;
+import reserve.Reserve;
+
+public class RentCar {
+
+	public static void main(String[] args) {
+		String memInfo; //회원 조회
+		String carInfo; 
+		String resInfo;
+		
+		//회원가입
+		//회원이 입력한 정보가 vo에 적히고
+		MemeberVo memvo = new MemeberVo("홍길동","1234", "홍길동" , "서울시 구로구" , "010-123-3333");
+		//vo에 있는 정보는 member 클래스에 전달
+		Member member = new Member();
+		//등록하기
+		member.regMember(memvo);
+		
+		//가입된 회원정보 조회
+		memInfo=member.viewMember(memvo);
+		//조회한 데이터가 리턴되면 그걸 출력하기 위해 base 클래스의 display 사용
+		member.displayData(memInfo);
+		
+		
+	}
+
+}

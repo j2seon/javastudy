@@ -1,0 +1,13 @@
+package Exer;
+
+public class sedan extends Car{
+
+	public sedan(String CarName, int veolcity, int carSize) {
+		super.carName=carName;
+		super.velocity=veolcity;
+		super.carSize=carSize;
+		
+	}
+	
+	
+}

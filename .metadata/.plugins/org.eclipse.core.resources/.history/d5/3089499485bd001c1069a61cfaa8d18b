@@ -1,0 +1,49 @@
+package oopstudy;
+
+public class BankDriver {
+
+	public static void main(String[] args) {
+
+	/*연습
+	 * 
+	 */
+	 
+	//사람 선언
+	Person p1 = new Person(); 
+	p1.name= "김신의";
+	p1.age=28;
+	p1.cashAmount=30000;
+	
+	// 은행계좌생성
+	BankAccount a1 = new BankAccount();
+	a1.balance=100000;
+	System.out.println(a1.balance);
+	
+	p1.account = a1; //사람에게 a1계좌를 연결
+	a1.owner=p1; //계좌에게 사람을 연결.
+	
+//	//연결된 계좌의 금액 확인하기
+//	System.out.println(p1.account.balance);
+//	//a1계좌의 연결된 사람 이름 확인.
+//	System.out.println(a1.owner.name);
+
+	 Person p2 = new Person();
+     p2.name="주진선";
+     p2.age=27;
+     p2.cashAmount=100000;
+     
+     BankAccount a2 = new BankAccount();
+     a2.balance = 500000;
+     
+     p2.account=a2;
+     a2.owner=p2;
+     
+     //1. 30,000입금
+     
+     
+     
+		
+		
+	}
+
+}

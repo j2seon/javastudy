@@ -1,0 +1,21 @@
+package exer;
+
+public class main {
+	
+       int greatestDifference(int[] intArray) {
+            
+        }
+        
+    
+	
+	
+	public static void main(String[] args) {
+
+		main m = new main();
+		
+		System.out.println(m.computeAverage(new int[] {1,2,3,4,}));
+		
+		
+	}
+
+}

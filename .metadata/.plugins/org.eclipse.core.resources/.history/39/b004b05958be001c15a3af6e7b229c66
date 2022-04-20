@@ -1,0 +1,16 @@
+package WordDictionary;
+
+import java.util.HashMap;
+
+public class wordDictionary {
+
+	
+	HashMap<String, String> dictionary = new HashMap<String, String>();
+	
+	
+	
+	
+	
+	
+	
+}

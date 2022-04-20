@@ -1,0 +1,10 @@
+package Exer;
+
+public class sedan extends Car{
+
+	public sedan(String ) {
+		
+	}
+	
+	
+}

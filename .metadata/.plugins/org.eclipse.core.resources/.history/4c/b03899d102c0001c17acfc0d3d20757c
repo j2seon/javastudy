@@ -1,0 +1,32 @@
+package Ex1;
+
+public class MemberImpl implements Member{
+
+	@Override
+	public void searchMemeber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void regMemeber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void modMemeber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+	@Override
+	public void delMemeber() {
+		// TODO Auto-generated method stub
+		
+	}
+
+
+	
+
+}

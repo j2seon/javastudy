@@ -1,0 +1,29 @@
+package rentcar;
+
+import car.Car;
+import mem.Member;
+import mem.MemeberVo;
+import reserve.Reserve;
+
+public class RentCar {
+
+	public static void main(String[] args) {
+		String carInfo; //차정보
+		String resDate; //예약정보조회 데이터
+		String resInfo;
+		
+		//회원가입
+		MemeberVo vo = new MemeberVo("홍길동","1234", "홍길동" , "서울시 구로구" , "010-123-3333");
+		
+		//렌트카를 조회한다.
+		Car car = new Car();
+		carInfo = car.checkCarInfo();
+		car.displayData(carInfo);
+		
+		//예약
+		Reserve reserve =new Reserve();
+		resDate=reserve.reserveCar();
+		reserve.displayData(resDate);
+	}
+
+}

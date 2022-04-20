@@ -1,0 +1,8 @@
+package oopstudy;
+
+public class Person {
+	String name;
+	int age;
+	int cashAmount; //현금보유
+	BankAccount bankaccount; //연결된 계좌?
+}

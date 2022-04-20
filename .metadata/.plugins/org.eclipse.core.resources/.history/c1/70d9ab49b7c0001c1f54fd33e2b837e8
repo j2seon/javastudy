@@ -1,0 +1,9 @@
+package car;
+
+public class CarVo {
+	String carNumber;
+	String carName;
+	String carColor;
+	int carSize;
+	String carmaker;
+}

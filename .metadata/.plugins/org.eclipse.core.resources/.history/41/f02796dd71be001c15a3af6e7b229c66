@@ -1,0 +1,43 @@
+package survive;
+
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+
+public class Main {
+    public static int getSurvivingIndex(int n, int k) {
+		//20명이 들어가는 리스트 만듬. 
+    	List<Integer>list = new ArrayList<Integer>(n);
+    	for(int i = 1; i<=n;i++) {
+    		list.add(i);
+    	}
+    	System.out.println(list);
+    	//k번째 사람이 죽는다. n의 숫자가 1일때까지 루프를 돌아야한다.
+    	//리스트를 루프를 돌때 k=5면 index의 위치는 k-1
+    	//한번루프돌면 5 10 15 20 죽고 사라짐 그럼 list의 숫자는 16개
+    	//두번돌면 6 12 18 list 숫자 13개
+    	while(n>1) {
+    		for(int i=0; i<list.size()-1; i++) {
+    			list.remove(k-1);
+    			System.out.println(list);
+    		}
+    	
+    	}
+    	
+    	
+    	return k;
+      
+   
+    		
+    }
+   
+
+    public static void main(String[] args) {
+        System.out.println("김신은 " + getSurvivingIndex(20, 5) + "번 자리에 서있으면 됩니다."); //7 
+        
+    	
+    	
+    	
+    	
+    	}
+  }

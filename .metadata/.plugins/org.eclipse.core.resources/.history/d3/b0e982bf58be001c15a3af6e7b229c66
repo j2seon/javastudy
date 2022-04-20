@@ -1,0 +1,23 @@
+package WordDictionary;
+
+import java.util.HashMap;
+
+public class wordDictionary {
+
+	
+	private HashMap<String, String> dictionary = new HashMap<String, String>();
+	
+	public void addWord(String english, String korean) {
+		
+	}
+	
+	public String find(String english) {
+		return dictionary.get(english);
+	}
+	
+	
+	
+	
+	
+	
+}

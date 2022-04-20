@@ -1,0 +1,31 @@
+package Exer;
+
+public class Truck extends Car{
+	
+	private int load; // 화물량
+	
+	public Truck(String carName, int velocity,int carSize,int load) {
+		super.carName=carName;
+		super.velocity=velocity;
+		super.carSize=carSize;
+		this.load=load;
+		
+	}
+
+	public int getLoad() {
+		return load;
+	}
+
+	public void setLoad(int load) {
+		this.load = load;
+	}
+
+		//1톤씩 운반가
+	public void carLoad() {
+		if(load>0) {
+			load++;
+		}else {
+			load=0;
+		}
+	}
+}

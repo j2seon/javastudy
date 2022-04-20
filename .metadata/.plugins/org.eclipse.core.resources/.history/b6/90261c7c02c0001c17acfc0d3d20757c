@@ -1,0 +1,27 @@
+package Ex1;
+
+public class MemberImpl implements Member{
+
+	@Override
+	public void searchMemeber() {
+		System.out.println("회원정보를 조회합니다.");
+		
+	}
+
+	@Override
+	public void regMemeber() {
+		System.out.println("회원정보를 등록합니다.");
+
+	}
+
+	@Override
+	public void modMemeber() {
+		System.out.println("회원정보를 수정합니다.");		
+	}
+
+	@Override
+	public void delMemeber() {
+		System.out.println("회원정보를 삭제합니다.");
+	}
+
+}
