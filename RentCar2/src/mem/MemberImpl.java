@@ -8,7 +8,11 @@ public class MemberImpl extends Base implements Member{
 	
 	
 	//회원 등록 메소드 // MemeberVo에서 등록하려는 회원의 정보를 MemeberVo타입으로 받기
-	public void regMember(MemeberVo vo) {
+	public void regMember(MemeberVo vo) throws MemberException {
+		String id=vo.id;
+		if(id==null || id.equals("")) {
+			throw new MemberException("아이디는 필수 입력정보입니다.");
+		}else {
 		memData =vo.id+","+
 				 vo.name+","+
 				 vo.password+","+
@@ -17,10 +21,11 @@ public class MemberImpl extends Base implements Member{
 		DataUtil.encodeData(memData);
 		System.out.println("회원등록 시간 : "+showTime());
 		System.out.println("회원가입합니다.");
+		}
 	}
 	
 	// 기존 회원 조회
-	public String viewMember (MemeberVo vo) {
+	public String viewMember (MemeberVo vo) throws MemberException {
 		memData= "회원 아이디 : "+vo.id+","+
 				"회원비번:"+vo.password+
 				"회원이름:"+vo.name+
@@ -31,7 +36,7 @@ public class MemberImpl extends Base implements Member{
 		return memData;
 	}
 	//회원정보수정
-	public void modMember(MemeberVo vo) {
+	public void modMember(MemeberVo vo) throws MemberException{
 		memData= vo.id+","+
 				 vo.name+","+
 				 vo.password+","+
@@ -45,7 +50,7 @@ public class MemberImpl extends Base implements Member{
 
 	}
 	//회원정보 삭제하는 메서드
-	public void delMember(MemeberVo vo) {
+	public void delMember(MemeberVo vo) throws MemberException{
 		memData = vo.id+","+
 				 vo.name+","+
 				 vo.password+","+

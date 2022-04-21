@@ -17,8 +17,6 @@
     <fullyQualifiedTypeName name="Person_1.Student"/>
     <fullyQualifiedTypeName name="Person_1.Elementary"/>
     <fullyQualifiedTypeName name="java.util.Calendar"/>
-    <fullyQualifiedTypeName name="base.Base"/>
-    <fullyQualifiedTypeName name="reserve.Reserve"/>
     <fullyQualifiedTypeName name="Exer.Bus"/>
     <fullyQualifiedTypeName name="Exer.truck"/>
     <fullyQualifiedTypeName name="Exer.sedan"/>
@@ -41,9 +39,18 @@
     <fullyQualifiedTypeName name="Exer2.Test1"/>
     <fullyQualifiedTypeName name="Exer2.Child"/>
     <fullyQualifiedTypeName name="mem.MemebeVo"/>
-    <fullyQualifiedTypeName name="mem.Member"/>
-    <fullyQualifiedTypeName name="common.DataUtil"/>
     <fullyQualifiedTypeName name="mem.MemeberVo"/>
     <fullyQualifiedTypeName name="car.CarVo"/>
+    <fullyQualifiedTypeName name="mem.Member"/>
+    <fullyQualifiedTypeName name="base.Base"/>
     <fullyQualifiedTypeName name="car.Car"/>
+    <fullyQualifiedTypeName name="car.CarImpl"/>
+    <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
+    <fullyQualifiedTypeName name="common.DataUtil"/>
+    <fullyQualifiedTypeName name="reserve.Reserve"/>
+    <fullyQualifiedTypeName name="reserve.ReserveImpl"/>
+    <fullyQualifiedTypeName name="reserve.ReserveVo"/>
+    <fullyQualifiedTypeName name="java.awt.Robot"/>
+    <fullyQualifiedTypeName name="java.lang.Object"/>
+    <fullyQualifiedTypeName name="exer3.Product"/>
 </qualifiedTypeNameHistroy>

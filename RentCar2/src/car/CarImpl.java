@@ -7,7 +7,7 @@ public class CarImpl extends Base implements Car {
 	String carData;
 	
 	//차량 정보조회 메서드
-	public String checkCarInfo(CarVo vo) {
+	public String checkCarInfo(CarVo vo) throws CarException {
 		carData="차 번호 : "+vo.carNumber+","+
 				"차 이름 : "+ vo.carName+","+
 				"차 크기 : "+vo.carSize+","+
@@ -21,7 +21,7 @@ public class CarImpl extends Base implements Car {
 	
 	}
 	//차량 등록
-	public void regCarInfo(CarVo vo) {
+	public void regCarInfo(CarVo vo) throws CarException{
 		carData= vo.carNumber+","+
 				vo.carName+","+
 				vo.carSize+","+
@@ -35,7 +35,7 @@ public class CarImpl extends Base implements Car {
 	}
 	
 	// 차정보 수정
-	public void modCarInfo(CarVo vo) {
+	public void modCarInfo(CarVo vo) throws CarException{
 		carData=vo.carNumber+","+
 				vo.carName+","+
 				vo.carSize+","+
@@ -49,7 +49,7 @@ public class CarImpl extends Base implements Car {
 	}
 	
 	//차정보 삭제하는 메소드
-	public void delCarInfo(CarVo vo) {
+	public void delCarInfo(CarVo vo) throws CarException {
 		carData=vo.carNumber+","+
 				vo.carName+","+
 				vo.carSize+","+

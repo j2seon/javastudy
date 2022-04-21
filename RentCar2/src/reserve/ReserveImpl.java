@@ -8,7 +8,7 @@ public class ReserveImpl extends Base implements Reserve{
 	
 	
 	//차를 예약
-	public String ReserveCar(ReserveVo vo) {
+	public String ReserveCar(ReserveVo vo)throws ReserveException {
 		resData=vo.resCarNumber +","+
 				 vo.resDate+","+
 				 vo.useBeginDate+","+
@@ -22,7 +22,7 @@ public class ReserveImpl extends Base implements Reserve{
 	}
 	
 	//차예약정보를 수정하는메소드
-	public void ModReserveCarInfo(ReserveVo vo) {
+	public void ModReserveCarInfo(ReserveVo vo)throws ReserveException {
 		resData="차량번호 : "+vo.resCarNumber+","+
 				"차량예약날 : "+vo.resDate+","+
 				"예약시작날짜 : "+vo.useBeginDate +","+
@@ -34,7 +34,7 @@ public class ReserveImpl extends Base implements Reserve{
 	}
 	
 	//차예약 취소
-	public void CancelReserveCarInfo(ReserveVo vo) {
+	public void CancelReserveCarInfo(ReserveVo vo)throws ReserveException {
 		resData=vo.resCarNumber +","+
 				 vo.resDate+","+
 				 vo.useBeginDate+","+
