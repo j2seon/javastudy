@@ -1,4 +1,3 @@
-package Chap17.Ex06;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;

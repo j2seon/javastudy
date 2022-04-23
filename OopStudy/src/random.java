@@ -1,4 +1,3 @@
-package Ex;
 
 import java.util.Random;
 

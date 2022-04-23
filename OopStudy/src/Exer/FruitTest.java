@@ -126,7 +126,7 @@ public class FruitTest {
 
 				}
 			}catch (Exception e) {
-				System.out.println("예외발생: 자료형에 맞게 똑똑히 입력 해주세요.  ");
+				System.out.println("예외발생: 숫자를 입력해주세요! ");
 				scanner = new Scanner(System.in);
 				continue outLoop; 
 			}
