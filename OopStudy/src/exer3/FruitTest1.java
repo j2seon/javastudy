@@ -21,7 +21,7 @@ public class FruitTest1 {
 			fruitname=fruit[i];
 			Set set =map.keySet();
 			Iterator<String> iterator = set.iterator();
-			String name=null;
+			String name=null; //저장되어있는 과일의 이름 불러오기
 			while(iterator.hasNext()) {
 				name= iterator.next();
 				 if(fruitname.equals(name)) {

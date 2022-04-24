@@ -1,14 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
 <qualifiedTypeNameHistroy>
-    <fullyQualifiedTypeName name="Exer2.Test2"/>
-    <fullyQualifiedTypeName name="Exer2.Test"/>
-    <fullyQualifiedTypeName name="Exer2.Test1"/>
-    <fullyQualifiedTypeName name="Exer2.Child"/>
-    <fullyQualifiedTypeName name="mem.MemebeVo"/>
-    <fullyQualifiedTypeName name="mem.MemeberVo"/>
-    <fullyQualifiedTypeName name="car.CarVo"/>
-    <fullyQualifiedTypeName name="mem.Member"/>
-    <fullyQualifiedTypeName name="base.Base"/>
     <fullyQualifiedTypeName name="car.Car"/>
     <fullyQualifiedTypeName name="car.CarImpl"/>
     <fullyQualifiedTypeName name="java.lang.AbstractMethodError"/>
@@ -41,23 +32,32 @@
     <fullyQualifiedTypeName name="thread.ATM"/>
     <fullyQualifiedTypeName name="java.lang.Thread"/>
     <fullyQualifiedTypeName name="thread.UserThread"/>
-    <fullyQualifiedTypeName name="java.lang.String"/>
     <fullyQualifiedTypeName name="Stream.FilinputStream_3"/>
     <fullyQualifiedTypeName name="java.lang.Exception"/>
     <fullyQualifiedTypeName name="javax.print.attribute.standard.OutputDeviceAssigned"/>
     <fullyQualifiedTypeName name="Stream.Write"/>
-    <fullyQualifiedTypeName name="java.io.FileWriter"/>
     <fullyQualifiedTypeName name="java.io.Writer"/>
-    <fullyQualifiedTypeName name="java.io.FileReader"/>
     <fullyQualifiedTypeName name="java.lang.Record"/>
     <fullyQualifiedTypeName name="java.io.Reader"/>
     <fullyQualifiedTypeName name="java.nio.charset.Charset"/>
     <fullyQualifiedTypeName name="java.io.OutputStream"/>
-    <fullyQualifiedTypeName name="java.io.File"/>
     <fullyQualifiedTypeName name="java.io.OutputStreamWriter"/>
     <fullyQualifiedTypeName name="java.io.FileOutputStream"/>
-    <fullyQualifiedTypeName name="java.lang.System"/>
     <fullyQualifiedTypeName name="java.io.InputStream"/>
     <fullyQualifiedTypeName name="java.io.FileInputStream"/>
+    <fullyQualifiedTypeName name="java.io.File"/>
+    <fullyQualifiedTypeName name="java.lang.String"/>
+    <fullyQualifiedTypeName name="java.awt.Desktop"/>
+    <fullyQualifiedTypeName name="Stream1.DirectTyping"/>
+    <fullyQualifiedTypeName name="Stream1.FileReadChar"/>
     <fullyQualifiedTypeName name="java.io.InputStreamReader"/>
+    <fullyQualifiedTypeName name="java.io.PrintWriter"/>
+    <fullyQualifiedTypeName name="java.io.FileWriter"/>
+    <fullyQualifiedTypeName name="java.io.BufferedReader"/>
+    <fullyQualifiedTypeName name="java.io.FileReader"/>
+    <fullyQualifiedTypeName name="java.util.StringTokenizer"/>
+    <fullyQualifiedTypeName name="java.lang.Integer"/>
+    <fullyQualifiedTypeName name="socreWrite.ScoreRead"/>
+    <fullyQualifiedTypeName name="java.util.Scanner"/>
+    <fullyQualifiedTypeName name="java.lang.System"/>
 </qualifiedTypeNameHistroy>
