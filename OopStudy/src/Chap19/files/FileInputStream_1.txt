@@ -1,4 +1,0 @@
-FileInputStream
-hello
-world
-¾È³ç

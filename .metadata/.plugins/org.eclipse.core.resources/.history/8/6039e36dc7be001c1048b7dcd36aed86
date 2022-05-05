@@ -1,7 +1,0 @@
-package Exer;
-
-public class ShapePrinter {
-    public void printTriangle(int height) {
-        
-    }
-}

@@ -1,9 +1,0 @@
-package Exer2;
-
-public interface MyCar {
-	public static final int SAFE_SPEED =60;
-	//public int SAFE_SPEED=60; °¡´É
-	
-	public abstract void speedUp();
-	public abstract void speedDown();
-}

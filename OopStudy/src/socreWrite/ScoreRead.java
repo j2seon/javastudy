@@ -29,7 +29,7 @@ public class ScoreRead {
 				}
 				System.out.println("ÃÑÁ¡ : "+ sum);
 				System.out.println("ÀÎ¿ø : "+ count);
-				
+			
 				avg=(double)sum/count;
 				System.out.println("Æò±Õ : "+ avg);
 			}

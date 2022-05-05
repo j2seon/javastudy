@@ -7,9 +7,8 @@ import java.util.Set;
 public class FruitTest {
 
 	public static void main(String[] args) {
-		String [] fruit= {"사과","바나나","귤","수박","사과",
-							"사과","귤","수박","바나나",
-								"귤","사과","사과","배","배","바나나","바나나","사과","귤","귤"};
+		String [] fruit= {"사과","바나나","귤","수박","사과","사과","귤","수박","바나나",
+						"귤","사과","사과","배","배","바나나","바나나","사과","귤","귤"};
 	
 		boolean isExisted = false; //저장할 과일이 있는지 확인
 		String fruitName = null; //저장할 과일이름
@@ -40,7 +39,6 @@ public class FruitTest {
 			isExisted=false;
 		}//end for
 		
-		
 		//출력하는 방법
 		System.out.println("과일개수출력하기");
 		System.out.println("================");
@@ -56,11 +54,5 @@ public class FruitTest {
 			System.out.println(fruitName+" : "+ value+"개");
 		}
 		
-		
-	
-	
-	
-	
 	}
-
 }

@@ -36,7 +36,7 @@ public class ScoreWrite {
 						scoreData+=s;
 					}
 					count++;
-				}else {
+				}else { 
 					System.out.println("숫자만 입력해주세요");
 				}
 			}while(count<=num);
